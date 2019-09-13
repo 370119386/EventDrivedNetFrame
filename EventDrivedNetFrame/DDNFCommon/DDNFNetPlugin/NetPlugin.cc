@@ -13,9 +13,7 @@ using namespace DDNF;
 
 DDNF_EXPORT void DllStartPlugin(DDNF::IPluginManager* pm)
 {
-	IPlugin* pkNetPlugin = new NetPlugin(pm); 
-	pm->Registered(pkNetPlugin);
-    //CREATE_PLUGIN(pm, NetPlugin)
+    CREATE_PLUGIN(pm, NetPlugin)
 };
 
 DDNF_EXPORT void DllStopPlugin(DDNF::IPluginManager* pm)

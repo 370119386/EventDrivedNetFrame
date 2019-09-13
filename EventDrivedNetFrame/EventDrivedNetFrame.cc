@@ -119,7 +119,12 @@ void ThreadFunc()
 
         std::string s;
 		std::getline(std::cin, s);
-        if ( 0 == stricmp( s.c_str(), "exit" ) )
+
+#if DDNF_PLATFORM == DDNF_PLATFORM_WIN
+		if (0 == _stricmp(s.c_str(), "exit"))
+#else
+		if (0 == stricmp(s.c_str(), "exit"))
+#endif
         {
             bExitApp = true;
             gThread.detach();
@@ -349,7 +354,7 @@ void MainExecute()
 #ifdef DDNF_COROUTINE
 			//NFPluginManager::Instance()->ExecuteCoScheduler();
 #else
-			//NFPluginManager::GetSingletonPtr()->Execute();
+			DDNF::PluginManager::Instance()->Execute();
 #endif
 		}
 #if DDNF_PLATFORM == DDNF_PLATFORM_WIN

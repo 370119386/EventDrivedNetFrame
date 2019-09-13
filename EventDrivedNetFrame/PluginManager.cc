@@ -19,7 +19,7 @@ PluginManager::~PluginManager()
 	
 }
 
-void DDNF::PluginManager::LoadPlugin()
+bool DDNF::PluginManager::LoadPlugin()
 {
 	LoadConfig();
 
@@ -27,6 +27,8 @@ void DDNF::PluginManager::LoadPlugin()
 	{
 		LoadPluginLibrary(itr.first);
 	}
+
+	return true;
 }
 
 bool DDNF::PluginManager::Awake()
@@ -262,6 +264,17 @@ bool DDNF::PluginManager::ReLoadPlugin(const std::string & strPluginDLLName)
 		}
 	}
 	return true;
+}
+
+IPlugin* DDNF::PluginManager::FindPlugin(const std::string& strPluginName)
+{
+	PluginInstanceMap::const_iterator itr = mPluginHandleDic.find(strPluginName);
+	if (itr != mPluginHandleDic.end())
+	{
+		return itr->second;
+	}
+
+	return NULL;
 }
 
 void DDNF::PluginManager::LoadConfig()
