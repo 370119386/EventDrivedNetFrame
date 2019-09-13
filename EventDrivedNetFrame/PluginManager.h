@@ -2,6 +2,7 @@
 #define __PLUGIN__MANAGER__H__
 #include "DDNFCommon/DDNFPluginModule/Platform.h"
 #include "DDNFCommon/DDNFCore/Singleton.hpp"
+#include "DDNFCommon/DDNFPluginModule/IPluginManager.h"
 #include <map>
 #include <string>
 
@@ -9,13 +10,13 @@ namespace DDNF
 {
 	class IPlugin;
 	class DynLib;
-	class PluginManager : public Singleton<PluginManager>
+	class PluginManager : public IPluginManager,public Singleton<PluginManager>
 	{
 	public:
 		PluginManager();
 		~PluginManager();
 
-		void LoadPlugin();
+		bool LoadPlugin();
 		bool Awake();
 		bool Init();
 		bool AfterInit();
@@ -30,6 +31,7 @@ namespace DDNF
 		void Registered(IPlugin* plugin);
 		void UnRegistered(IPlugin* plugin);
 		bool ReLoadPlugin(const std::string & strPluginDLLName);
+		IPlugin* FindPlugin(const std::string& strPluginName);
 
 	protected:
 		bool LoadPluginLibrary(const std::string& strPluginDLLName);
