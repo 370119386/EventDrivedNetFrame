@@ -68,7 +68,7 @@ namespace DDNF
 
 		virtual void SetBodyLength(uint32_t nLength) = 0;
 
-		static int64_t HTONLL(int64_t nData)
+		static int64_t DDNF_HTONLL(int64_t nData)
 		{
 #if DDNF_PLATFORM == DDNF_PLATFORM_WIN
 			return htonll(nData);
@@ -79,7 +79,7 @@ namespace DDNF
 #endif
 		}
 
-		static int64_t NTOHLL(int64_t nData)
+		static int64_t DDNF_NTOHLL(int64_t nData)
 		{
 #if DDNF_PLATFORM == DDNF_PLATFORM_WIN
 			return ntohll(nData);
@@ -92,7 +92,7 @@ namespace DDNF
 #endif
 		}
 
-		static int32_t HTONL(int32_t nData)
+		static int32_t DDNF_HTONL(int32_t nData)
 		{
 #if DDNF_PLATFORM == DDNF_PLATFORM_WIN
 			return htonl(nData);
@@ -103,7 +103,7 @@ namespace DDNF
 #endif
 		}
 
-		static int32_t NTOHL(int32_t nData)
+		static int32_t DDNF_NTOHL(int32_t nData)
 		{
 #if DDNF_PLATFORM == DDNF_PLATFORM_WIN
 			return ntohl(nData);
@@ -116,7 +116,7 @@ namespace DDNF
 #endif
 		}
 
-		static int16_t HTONS(int16_t nData)
+		static int16_t DDNF_HTONS(int16_t nData)
 		{
 #if DDNF_PLATFORM == DDNF_PLATFORM_WIN
 			return htons(nData);
@@ -127,7 +127,7 @@ namespace DDNF
 #endif
 		}
 
-		static int16_t NTOHS(int16_t nData)
+		static int16_t DDNF_NTOHS(int16_t nData)
 		{
 #if DDNF_PLATFORM == DDNF_PLATFORM_WIN
 			return ntohs(nData);
@@ -153,26 +153,26 @@ namespace DDNF
 	protected:
 		inline void EnCodeHTONS_INT16(char* data,uint16_t value)
 		{
-			uint16_t nValue = HTONS(value);
+			uint16_t nValue = DDNF_HTONS(value);
 			memcpy(data, (void*)(&nValue), sizeof(value));
 		}
 
 		inline void EnCodeHTONL_INT32(char* data, uint32_t value)
 		{
-			uint32_t nValue = HTONL(value);
+			uint32_t nValue = DDNF_HTONL(value);
 			memcpy(data, (void*)(&nValue), sizeof(value));
 		}
 
 		inline void DeCodeNTOHS_INT16(const char* data,uint16_t& value)
 		{
 			memcpy(&value, data, sizeof(value));
-			value = NTOHS(value);
+			value = DDNF_NTOHS(value);
 		}
 
 		inline void DeCodeNTOHS_INT32(const char* data, uint32_t& value)
 		{
 			memcpy(&value, data, sizeof(value));
-			value = NTOHL(value);
+			value = DDNF_NTOHL(value);
 		}
 
 		// Message Head[ MsgID(2) | MsgSize(4) ]

@@ -119,7 +119,7 @@ void ThreadFunc()
 
         std::string s;
 		std::getline(std::cin, s);
-        if ( 0 == _stricmp( s.c_str(), "exit" ) )
+        if ( 0 == stricmp( s.c_str(), "exit" ) )
         {
             bExitApp = true;
             gThread.detach();
