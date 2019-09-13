@@ -144,7 +144,7 @@ namespace DDNF
 
 		//virtual void RemoveModule(const std::string& strModuleName) = 0;
 
-		//virtual IModule* FindModule(const std::string& strModuleName) = 0;
+		virtual IModule* FindModule(const std::string& strModuleName) = 0;
 
 		//virtual IModule* FindTestModule(const std::string& strModuleName) = 0;
 
