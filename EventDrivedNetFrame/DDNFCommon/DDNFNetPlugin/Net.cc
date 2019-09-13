@@ -34,7 +34,12 @@ int DDNF::Net::InitClientNet()
 
 #ifdef _MSC_VER
 	WSADATA wsa_data;
-	WSAStartup(0x0201, &wsa_data);
+	int errCode = WSAStartup(0x0201, &wsa_data);
+	if (errCode != 0)
+	{
+		printf("WSAStartup Error = %d\n", errCode);
+		return -1;
+	}
 #endif
 
 	memset(&addr, 0, sizeof(addr));
