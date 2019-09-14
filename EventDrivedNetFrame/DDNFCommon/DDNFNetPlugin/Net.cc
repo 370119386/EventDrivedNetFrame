@@ -75,6 +75,7 @@ int DDNF::Net::InitClientNet()
 	}
 
 	SOCK sockfd = bufferevent_getfd(bev);
-	//NetObject* pkNetObject = new NetObject(this, sockfd, &addr, bev);
+	NetObject* pkNetObject = new NetObject(this, sockfd, addr, bev);
+
 	return -1;
 }
