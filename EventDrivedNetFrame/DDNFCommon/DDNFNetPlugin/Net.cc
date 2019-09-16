@@ -64,6 +64,25 @@ bool DDNF::Net::Execute()
 	return true;
 }
 
+
+void DDNF::Net::Initialization(const char* strIP, const unsigned short nPort)
+{
+	mIp = strIP;
+	mPort = nPort;
+
+	InitClientNet();
+}
+
+
+int DDNF::Net::Initialization(const unsigned int nMaxClient, const unsigned short nPort, const int nCpuCount /*= 4*/)
+{
+	mMaxConnect = nMaxClient;
+	mPort = nPort;
+	mCpuCount = nCpuCount;
+
+	return InitServerNet();
+}
+
 int DDNF::Net::InitClientNet()
 {
 	std::string strIP = mIp;
