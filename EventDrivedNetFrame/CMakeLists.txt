@@ -3,6 +3,8 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
+project(EventDrivedNetFrame)
+
 set(CMAKE_BUILE_TYPE DEBUG)
 
 set(CMAKE_CXX_STANDARD 11)
