@@ -175,6 +175,7 @@ namespace DDNF
 			value = DDNF_NTOHL(value);
 		}
 
+	public:
 		// Message Head[ MsgID(2) | MsgSize(4) ]
 		virtual int EnCode(char* data)
 		{
@@ -225,11 +226,16 @@ namespace DDNF
 		uint16_t msgId;
 	};
 
-
 	//Handle Accepted Net Message
 	typedef std::function<void(const SOCK nSockIndex, const int nMsgID, const char* msg,
 		const uint32_t nLen)> NET_MESSAGE_HANDLER_FUNCTOR;
 	typedef std::shared_ptr<NET_MESSAGE_HANDLER_FUNCTOR> NET_MESSAGE_HANDLER_FUNCTOR_PTR;
+
+	class INet;
+	class NetObject;
+
+	typedef std::function<void(const SOCK nSockIndex, const NET_EVENT nEvent, INet * pNet)> NET_EVENT_HANDLER_FUNCTOR;
+	typedef std::shared_ptr<NET_EVENT_HANDLER_FUNCTOR> NET_EVENT_HANDLER_FUNCTOR_PTR;
 
 	class INet
 	{
@@ -260,11 +266,11 @@ namespace DDNF
 		////send a message with out msg-head to all client[auto add msg-head in this function]
 		//virtual bool SendMsgToAllClientWithOutHead(const int16_t nMsgID, const char* msg, const size_t nLen) = 0;
 
-		//virtual bool CloseNetObject(const SOCK nSockIndex) = 0;
+		virtual bool CloseNetObject(const SOCK nSockIndex) = 0;
 
-		//virtual NetObject* GetNetObject(const SOCK nSockIndex) = 0;
+		virtual NetObject* GetNetObject(const SOCK nSockIndex) = 0;
 
-		//virtual bool AddNetObject(const SOCK nSockIndex, NetObject* pObject) = 0;
+		virtual bool AddNetObject(const SOCK nSockIndex, NetObject* pObject) = 0;
 
 		//virtual bool IsServer() = 0;
 
@@ -363,6 +369,26 @@ namespace DDNF
 			return m_pkAccount;
 		}
 
+		inline INet* GetNetHandle() const
+		{
+			return m_pkNet;
+		}
+
+		inline void SetNeedRemove(bool flag)
+		{
+			m_bNeedRemove = flag;
+		}
+
+		inline bool GetNeedRemove() const
+		{
+			return m_bNeedRemove;
+		}
+
+		inline SOCK GetSocketFD() const
+		{
+			return m_fd;
+		}
+
 	private:
 		INet* m_pkNet;
 		SOCK m_fd;
@@ -372,6 +398,8 @@ namespace DDNF
 		std::string m_pkEncryptKey;
 		int32_t m_iNetState;
 		std::string m_pkAccount;
+		bool m_bNeedRemove;
+
 	};
 }
 
