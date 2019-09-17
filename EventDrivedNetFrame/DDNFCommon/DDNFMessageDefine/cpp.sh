@@ -1,0 +1,1 @@
+./protoc -I=./proto/ --cpp_out=dllexport_decl=LIBPROTOC_EXPORT:./protocol DDNFDefine.proto

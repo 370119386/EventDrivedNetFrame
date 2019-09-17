@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package DDNF;
+
+//events
+enum EGameEventCode
+{
+	EGEC_SUCCESS								= 0;
+	EGEC_UNKOWN_ERROR							= 1;
+}
+
+message MsgPackage
+{
+	int64 id = 1;
+}
