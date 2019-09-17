@@ -15,8 +15,8 @@ namespace DDNF
 
 		virtual std::string GetPluginName() const override;
 
-		virtual void Install();
+		virtual void Install() override;
 
-		virtual void Uninstall();
+		virtual void Uninstall() override;
 	};
 }

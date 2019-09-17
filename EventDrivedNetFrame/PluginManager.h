@@ -32,6 +32,7 @@ namespace DDNF
 		void UnRegistered(IPlugin* plugin);
 		bool ReLoadPlugin(const std::string & strPluginDLLName);
 		IPlugin* FindPlugin(const std::string& strPluginName);
+		IModule* FindModule(const std::string& strModuleName);
 
 	protected:
 		bool LoadPluginLibrary(const std::string& strPluginDLLName);

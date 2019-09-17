@@ -277,6 +277,11 @@ IPlugin* DDNF::PluginManager::FindPlugin(const std::string& strPluginName)
 	return NULL;
 }
 
+IModule* DDNF::PluginManager::FindModule(const std::string& strModuleName)
+{
+	return NULL;
+}
+
 void DDNF::PluginManager::LoadConfig()
 {
 	mPluginNameDic.insert(PluginNameMap::value_type("NetPlugin",true));

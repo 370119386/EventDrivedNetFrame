@@ -3,6 +3,8 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
+project(EventDrivedNetFrame)
+
 set(CMAKE_BUILE_TYPE DEBUG)
 
 set(CMAKE_CXX_STANDARD 11)
@@ -32,6 +34,10 @@ endif()
 
 set(CMAKE_DEBUG_POSTFIX "_d")
 
+if(CMAKE_HOST_APPLE)
+set(CMAKE_SHARED_LIBRARY_SUFFIX ".so")
+endif()
+
 message("[PROJECT_SOURCE_DIR] = ${PROJECT_SOURCE_DIR}")
 message("[PROJECT_BINARY_DIR] = ${PROJECT_BINARY_DIR}")
 message("[PROJECT_LINK_DIR] = ${PROJECT_LINK_DIR}")
@@ -48,7 +54,7 @@ message("[CMAKE_EXE_LINKER_FLAGS] = ${CMAKE_EXE_LINKER_FLAGS}")
 if(CMAKE_HOST_WIN32)
 set(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "." "./Dependencies/libevent/include" "./Dependencies/libevent/WIN32-Code/nmake")
 else()
-set(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "." "./Dependencies/libevent/include")
+set(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "." "./Dependencies/ios/libevent/include")
 endif()
 message("[CMAKE_INCLUDE_PATH] = ${CMAKE_INCLUDE_PATH}")
 
