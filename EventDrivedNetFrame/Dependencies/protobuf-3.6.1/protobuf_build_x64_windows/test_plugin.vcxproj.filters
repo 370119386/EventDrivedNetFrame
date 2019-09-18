@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\compiler\mock_code_generator.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\compiler\mock_code_generator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\testing\file.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\testing\file.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\compiler\test_plugin.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\compiler\test_plugin.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\testing\file.h">
+    <ClInclude Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\testing\file.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{C86773A6-EACB-3C2E-BAAF-6D644C00FF2A}</UniqueIdentifier>
+      <UniqueIdentifier>{30BD6E2F-88AD-3765-A226-2B0155F461E5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{39DA1507-17F8-3FEF-A7A7-395A9533E282}</UniqueIdentifier>
+      <UniqueIdentifier>{D69F8E45-6CB4-3778-9EF9-FF3FED16EFF6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

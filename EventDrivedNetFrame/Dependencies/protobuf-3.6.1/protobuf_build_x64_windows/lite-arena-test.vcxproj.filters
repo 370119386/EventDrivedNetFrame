@@ -1,58 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\lite_arena_unittest.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\lite_arena_unittest.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\arena_test_util.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\arena_test_util.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\map_lite_test_util.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\map_lite_test_util.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\test_util_lite.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\test_util_lite.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\map_lite_unittest.pb.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\map_lite_unittest.pb.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\unittest_import_lite.pb.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\unittest_import_lite.pb.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\unittest_import_public_lite.pb.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\unittest_import_public_lite.pb.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\unittest_lite.pb.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\unittest_lite.pb.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src\google\protobuf\unittest_no_arena_lite.pb.cc">
+    <ClCompile Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src\google\protobuf\unittest_no_arena_lite.pb.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\2ed6954f3e3ee35c6e93806f500157fa\map_lite_unittest.pb.cc.rule">
+    <CustomBuild Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\3ff0fbe6c7a4f36bde1f04bf4f26403e\map_lite_unittest.pb.cc.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\2ed6954f3e3ee35c6e93806f500157fa\unittest_import_lite.pb.cc.rule">
+    <CustomBuild Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\3ff0fbe6c7a4f36bde1f04bf4f26403e\unittest_import_lite.pb.cc.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\2ed6954f3e3ee35c6e93806f500157fa\unittest_import_public_lite.pb.cc.rule">
+    <CustomBuild Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\3ff0fbe6c7a4f36bde1f04bf4f26403e\unittest_import_public_lite.pb.cc.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\2ed6954f3e3ee35c6e93806f500157fa\unittest_lite.pb.cc.rule">
+    <CustomBuild Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\3ff0fbe6c7a4f36bde1f04bf4f26403e\unittest_lite.pb.cc.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\2ed6954f3e3ee35c6e93806f500157fa\unittest_no_arena_lite.pb.cc.rule">
+    <CustomBuild Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\3ff0fbe6c7a4f36bde1f04bf4f26403e\unittest_no_arena_lite.pb.cc.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{07B7D71E-117A-3E3B-8FB7-C378D0598FB9}</UniqueIdentifier>
+      <UniqueIdentifier>{D4C36455-93A1-387F-A71D-A1C51799A41F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{39DA1507-17F8-3FEF-A7A7-395A9533E282}</UniqueIdentifier>
+      <UniqueIdentifier>{D69F8E45-6CB4-3778-9EF9-FF3FED16EFF6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

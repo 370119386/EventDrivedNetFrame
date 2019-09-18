@@ -9,8 +9,8 @@ The output was:
 ÓÃÓÚ .NET Framework µÄ Microsoft (R) Éú³ÉÒýÇæ°æ±¾ 16.3.0-preview-19426-01+faf5e5d75
 °æÈ¨ËùÓÐ(C) Microsoft Corporation¡£±£ÁôËùÓÐÈ¨Àû¡£
 
-Éú³ÉÆô¶¯Ê±¼äÎª 2019/9/18 13:17:01¡£
-½Úµã 1 ÉÏµÄÏîÄ¿¡°D:\360°²È«ä¯ÀÀÆ÷ÏÂÔØ\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\3.14.0-rc3\CompilerIdC\CompilerIdC.vcxproj¡±(Ä¬ÈÏÄ¿±ê)¡£
+Éú³ÉÆô¶¯Ê±¼äÎª 2019/9/18 14:32:11¡£
+½Úµã 1 ÉÏµÄÏîÄ¿¡°D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\3.14.0-rc3\CompilerIdC\CompilerIdC.vcxproj¡±(Ä¬ÈÏÄ¿±ê)¡£
 PrepareForBuild:
   ÕýÔÚ´´½¨Ä¿Â¼¡°Debug\¡±¡£
   ÕýÔÚ´´½¨Ä¿Â¼¡°Debug\CompilerIdC.tlog\¡±¡£
@@ -21,7 +21,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.23.28019\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> D:\360°²È«ä¯ÀÀÆ÷ÏÂÔØ\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\3.14.0-rc3\CompilerIdC\.\CompilerIdC.exe
+  CompilerIdC.vcxproj -> D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\3.14.0-rc3\CompilerIdC\.\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -29,20 +29,20 @@ PostBuildEvent:
 FinalizeBuildStatus:
   ÕýÔÚÉ¾³ýÎÄ¼þ¡°Debug\CompilerIdC.tlog\unsuccessfulbuild¡±¡£
   ÕýÔÚ¶Ô¡°Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate¡±Ö´ÐÐ Touch ÈÎÎñ¡£
-ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°D:\360°²È«ä¯ÀÀÆ÷ÏÂÔØ\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\3.14.0-rc3\CompilerIdC\CompilerIdC.vcxproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\3.14.0-rc3\CompilerIdC\CompilerIdC.vcxproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷¡£
 
 ÒÑ³É¹¦Éú³É¡£
     0 ¸ö¾¯¸æ
     0 ¸ö´íÎó
 
-ÒÑÓÃÊ±¼ä 00:00:02.20
+ÒÑÓÃÊ±¼ä 00:00:01.70
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "D:/360å®‰å…¨æµè§ˆå™¨ä¸‹è½½/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/3.14.0-rc3/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/3.14.0-rc3/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -54,8 +54,8 @@ The output was:
 ÓÃÓÚ .NET Framework µÄ Microsoft (R) Éú³ÉÒýÇæ°æ±¾ 16.3.0-preview-19426-01+faf5e5d75
 °æÈ¨ËùÓÐ(C) Microsoft Corporation¡£±£ÁôËùÓÐÈ¨Àû¡£
 
-Éú³ÉÆô¶¯Ê±¼äÎª 2019/9/18 13:17:04¡£
-½Úµã 1 ÉÏµÄÏîÄ¿¡°D:\360°²È«ä¯ÀÀÆ÷ÏÂÔØ\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\3.14.0-rc3\CompilerIdCXX\CompilerIdCXX.vcxproj¡±(Ä¬ÈÏÄ¿±ê)¡£
+Éú³ÉÆô¶¯Ê±¼äÎª 2019/9/18 14:32:14¡£
+½Úµã 1 ÉÏµÄÏîÄ¿¡°D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\3.14.0-rc3\CompilerIdCXX\CompilerIdCXX.vcxproj¡±(Ä¬ÈÏÄ¿±ê)¡£
 PrepareForBuild:
   ÕýÔÚ´´½¨Ä¿Â¼¡°Debug\¡±¡£
   ÕýÔÚ´´½¨Ä¿Â¼¡°Debug\CompilerIdCXX.tlog\¡±¡£
@@ -66,7 +66,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.23.28019\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> D:\360°²È«ä¯ÀÀÆ÷ÏÂÔØ\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\3.14.0-rc3\CompilerIdCXX\.\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\3.14.0-rc3\CompilerIdCXX\.\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -74,109 +74,109 @@ PostBuildEvent:
 FinalizeBuildStatus:
   ÕýÔÚÉ¾³ýÎÄ¼þ¡°Debug\CompilerIdCXX.tlog\unsuccessfulbuild¡±¡£
   ÕýÔÚ¶Ô¡°Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate¡±Ö´ÐÐ Touch ÈÎÎñ¡£
-ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°D:\360°²È«ä¯ÀÀÆ÷ÏÂÔØ\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\3.14.0-rc3\CompilerIdCXX\CompilerIdCXX.vcxproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷¡£
+ÒÑÍê³ÉÉú³ÉÏîÄ¿¡°D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\3.14.0-rc3\CompilerIdCXX\CompilerIdCXX.vcxproj¡±(Ä¬ÈÏÄ¿±ê)µÄ²Ù×÷¡£
 
 ÒÑ³É¹¦Éú³É¡£
     0 ¸ö¾¯¸æ
     0 ¸ö´íÎó
 
-ÒÑÓÃÊ±¼ä 00:00:01.57
+ÒÑÓÃÊ±¼ä 00:00:01.59
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "D:/360å®‰å…¨æµè§ˆå™¨ä¸‹è½½/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/3.14.0-rc3/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/3.14.0-rc3/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/360å®‰å…¨æµè§ˆå™¨ä¸‹è½½/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/CMakeTmp
+Change Dir: D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0a5bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0baa2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 ç”¨äºŽ .NET Framework çš„ Microsoft (R) ç”Ÿæˆå¼•æ“Žç‰ˆæœ¬ 16.3.0-preview-19426-01+faf5e5d75
 ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
 
   ç”¨äºŽ x64 çš„ Microsoft (R) C/C++ ä¼˜åŒ–ç¼–è¯‘å™¨ 19.23.28019.1 ç‰ˆ
   testCCompiler.c
   ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a5bf.dir\Debug\\" /Fd"cmTC_0a5bf.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\360å®‰å…¨æµè§ˆå™¨ä¸‹è½½\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\CMakeTmp\testCCompiler.c"
-  cmTC_0a5bf.vcxproj -> D:\360å®‰å…¨æµè§ˆå™¨ä¸‹è½½\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\CMakeTmp\Debug\cmTC_0a5bf.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0baa2.dir\Debug\\" /Fd"cmTC_0baa2.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cmTC_0baa2.vcxproj -> D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\CMakeTmp\Debug\cmTC_0baa2.exe
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/360å®‰å…¨æµè§ˆå™¨ä¸‹è½½/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/CMakeTmp
+Change Dir: D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1c72b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1597a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 ç”¨äºŽ .NET Framework çš„ Microsoft (R) ç”Ÿæˆå¼•æ“Žç‰ˆæœ¬ 16.3.0-preview-19426-01+faf5e5d75
 ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
 
   ç”¨äºŽ x64 çš„ Microsoft (R) C/C++ ä¼˜åŒ–ç¼–è¯‘å™¨ 19.23.28019.1 ç‰ˆ
   CMakeCCompilerABI.c
   ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c72b.dir\Debug\\" /Fd"cmTC_1c72b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c"
-  cmTC_1c72b.vcxproj -> D:\360å®‰å…¨æµè§ˆå™¨ä¸‹è½½\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\CMakeTmp\Debug\cmTC_1c72b.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1597a.dir\Debug\\" /Fd"cmTC_1597a.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c"
+  cmTC_1597a.vcxproj -> D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\CMakeTmp\Debug\cmTC_1597a.exe
 
 
 
 
 Detecting C [] compiler features compiled with the following output:
-Change Dir: D:/360å®‰å…¨æµè§ˆå™¨ä¸‹è½½/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/CMakeTmp
+Change Dir: D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0a226.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_488d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 ç”¨äºŽ .NET Framework çš„ Microsoft (R) ç”Ÿæˆå¼•æ“Žç‰ˆæœ¬ 16.3.0-preview-19426-01+faf5e5d75
 ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
 
   ç”¨äºŽ x64 çš„ Microsoft (R) C/C++ ä¼˜åŒ–ç¼–è¯‘å™¨ 19.23.28019.1 ç‰ˆ
   feature_tests.c
   ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a226.dir\Debug\\" /Fd"cmTC_0a226.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\360å®‰å…¨æµè§ˆå™¨ä¸‹è½½\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\feature_tests.c"
-  cmTC_0a226.vcxproj -> D:\360å®‰å…¨æµè§ˆå™¨ä¸‹è½½\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\CMakeTmp\Debug\cmTC_0a226.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_488d1.dir\Debug\\" /Fd"cmTC_488d1.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\feature_tests.c"
+  cmTC_488d1.vcxproj -> D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\CMakeTmp\Debug\cmTC_488d1.exe
 
 
     Feature record: C_FEATURE:1c_function_prototypes
     Feature record: C_FEATURE:1c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/360å®‰å…¨æµè§ˆå™¨ä¸‹è½½/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/CMakeTmp
+Change Dir: D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8cd51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_891f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 ç”¨äºŽ .NET Framework çš„ Microsoft (R) ç”Ÿæˆå¼•æ“Žç‰ˆæœ¬ 16.3.0-preview-19426-01+faf5e5d75
 ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
 
   ç”¨äºŽ x64 çš„ Microsoft (R) C/C++ ä¼˜åŒ–ç¼–è¯‘å™¨ 19.23.28019.1 ç‰ˆ
-  testCXXCompiler.cxx
   ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8cd51.dir\Debug\\" /Fd"cmTC_8cd51.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\360å®‰å…¨æµè§ˆå™¨ä¸‹è½½\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
-  cmTC_8cd51.vcxproj -> D:\360å®‰å…¨æµè§ˆå™¨ä¸‹è½½\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\CMakeTmp\Debug\cmTC_8cd51.exe
+  testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_891f8.dir\Debug\\" /Fd"cmTC_891f8.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cmTC_891f8.vcxproj -> D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\CMakeTmp\Debug\cmTC_891f8.exe
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/360å®‰å…¨æµè§ˆå™¨ä¸‹è½½/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/CMakeTmp
+Change Dir: D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_71d36.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e2411.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 ç”¨äºŽ .NET Framework çš„ Microsoft (R) ç”Ÿæˆå¼•æ“Žç‰ˆæœ¬ 16.3.0-preview-19426-01+faf5e5d75
 ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
 
   ç”¨äºŽ x64 çš„ Microsoft (R) C/C++ ä¼˜åŒ–ç¼–è¯‘å™¨ 19.23.28019.1 ç‰ˆ
-  ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_71d36.dir\Debug\\" /Fd"cmTC_71d36.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_71d36.vcxproj -> D:\360å®‰å…¨æµè§ˆå™¨ä¸‹è½½\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\CMakeTmp\Debug\cmTC_71d36.exe
+  ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e2411.dir\Debug\\" /Fd"cmTC_e2411.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_e2411.vcxproj -> D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\CMakeTmp\Debug\cmTC_e2411.exe
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: D:/360å®‰å…¨æµè§ˆå™¨ä¸‹è½½/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/CMakeTmp
+Change Dir: D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a19bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cb9b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 ç”¨äºŽ .NET Framework çš„ Microsoft (R) ç”Ÿæˆå¼•æ“Žç‰ˆæœ¬ 16.3.0-preview-19426-01+faf5e5d75
 ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
 
   ç”¨äºŽ x64 çš„ Microsoft (R) C/C++ ä¼˜åŒ–ç¼–è¯‘å™¨ 19.23.28019.1 ç‰ˆ
-  ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
   feature_tests.cxx
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a19bd.dir\Debug\\" /Fd"cmTC_a19bd.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\360å®‰å…¨æµè§ˆå™¨ä¸‹è½½\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\feature_tests.cxx"
-  cmTC_a19bd.vcxproj -> D:\360å®‰å…¨æµè§ˆå™¨ä¸‹è½½\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\CMakeTmp\Debug\cmTC_a19bd.exe
+  ç‰ˆæƒæ‰€æœ‰(C) Microsoft Corporationã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cb9b7.dir\Debug\\" /Fd"cmTC_cb9b7.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\feature_tests.cxx"
+  cmTC_cb9b7.vcxproj -> D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\CMakeTmp\Debug\cmTC_cb9b7.exe
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers

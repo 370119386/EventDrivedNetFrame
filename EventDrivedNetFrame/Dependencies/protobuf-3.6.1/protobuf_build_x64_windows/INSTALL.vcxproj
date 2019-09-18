@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4BCBC033-9CE4-35AE-852F-4BE2B6C15F75}</ProjectGuid>
+    <ProjectGuid>{E4A79411-479F-3FB7-B480-55BB712145E6}</ProjectGuid>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -66,7 +66,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googlemock;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googletest;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googletest\include;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googlemock;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googletest;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googletest\include;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -88,7 +88,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googlemock;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googletest;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googletest\include;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googlemock;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googletest;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googletest\include;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,7 +110,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googlemock;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googletest;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googletest\include;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googlemock;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googletest;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googletest\include;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -132,7 +132,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\src;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googlemock;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googletest;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googletest\include;D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\src;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googlemock;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googletest;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googletest\include;D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -153,7 +153,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\32587da2c2a0cb54b16919e9f50d53f4\INSTALL_force.rule">
+    <CustomBuild Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\14798e75c3b6ad18469939b54201ec4c\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -164,8 +164,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/360安全浏览器下载/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/32587da2c2a0cb54b16919e9f50d53f4/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/14798e75c3b6ad18469939b54201ec4c/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
@@ -177,8 +177,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/360安全浏览器下载/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/32587da2c2a0cb54b16919e9f50d53f4/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/14798e75c3b6ad18469939b54201ec4c/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
@@ -190,8 +190,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/360安全浏览器下载/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/32587da2c2a0cb54b16919e9f50d53f4/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/14798e75c3b6ad18469939b54201ec4c/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
@@ -203,20 +203,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/360安全浏览器下载/protobuf-cpp-3.6.1/protobuf-3.6.1/protobuf_build_32/CMakeFiles/32587da2c2a0cb54b16919e9f50d53f4/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/EventDrivedNetFrame/EventDrivedNetFrame/EventDrivedNetFrame/Dependencies/protobuf-3.6.1/protobuf_build_x64_windows/CMakeFiles/14798e75c3b6ad18469939b54201ec4c/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\ZERO_CHECK.vcxproj">
-      <Project>{CA01D691-8D4D-390E-80C5-E1AAD014E0A6}</Project>
+    <ProjectReference Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\ZERO_CHECK.vcxproj">
+      <Project>{03CD6C29-6778-366B-97F5-5A54B6A04203}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\ALL_BUILD.vcxproj">
-      <Project>{B2FB2C45-78E9-3B72-9DF9-BBD5616A5C64}</Project>
+    <ProjectReference Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\ALL_BUILD.vcxproj">
+      <Project>{D8058359-5BC7-39BB-A038-D794D6129CD4}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\360安全浏览器下载\protobuf-cpp-3.6.1\protobuf-3.6.1\protobuf_build_32\CMakeFiles\32587da2c2a0cb54b16919e9f50d53f4\generate.stamp.rule">
+    <CustomBuild Include="D:\EventDrivedNetFrame\EventDrivedNetFrame\EventDrivedNetFrame\Dependencies\protobuf-3.6.1\protobuf_build_x64_windows\CMakeFiles\14798e75c3b6ad18469939b54201ec4c\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{07B7D71E-117A-3E3B-8FB7-C378D0598FB9}</UniqueIdentifier>
+      <UniqueIdentifier>{D4C36455-93A1-387F-A71D-A1C51799A41F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
