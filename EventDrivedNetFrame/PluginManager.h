@@ -37,6 +37,21 @@ namespace DDNF
 		virtual INT64 GetInitTime() const override;
 		virtual INT64 GetNowTime() const override;
 
+		virtual int GetAppID() const;
+		virtual void SetAppID(const int nAppID);
+
+		virtual const std::string& GetConfigPath() const;
+		virtual void SetConfigPath(const std::string& rkPath);
+
+		virtual void SetConfigName(const std::string& rkFileName);
+		virtual const std::string& GetConfigName() const;
+
+		virtual const std::string& GetAppName() const;
+		virtual void SetAppName(const std::string& rkAppName);
+
+		virtual const std::string& GetLogConfigName() const;
+		virtual void SetLogConfigName(const std::string& rkName);
+
 	protected:
 		bool LoadPluginLibrary(const std::string& strPluginDLLName);
 		bool UnLoadPluginLibrary(const std::string& strPluginDLLName);
@@ -57,6 +72,13 @@ namespace DDNF
 
 		INT64 mInitTime;
 		INT64 mNowTime;
+
+		int mAppID;
+
+		std::string mkConfigPath;
+		std::string mkConfigFileName;
+		std::string mkLogConfigName;
+		std::string mkAppName;
 	};
 }
 #endif

@@ -286,7 +286,6 @@ IModule* DDNF::PluginManager::FindModule(const std::string& strModuleName)
 	return NULL;
 }
 
-
 DDNF::INT64 DDNF::PluginManager::GetInitTime() const
 {
 	return mInitTime;
@@ -295,6 +294,57 @@ DDNF::INT64 DDNF::PluginManager::GetInitTime() const
 DDNF::INT64 DDNF::PluginManager::GetNowTime() const
 {
 	return mNowTime;
+}
+
+int DDNF::PluginManager::GetAppID() const
+{
+	return mAppID;
+}
+
+void DDNF::PluginManager::SetAppID(const int nAppID)
+{
+	mAppID = nAppID;
+}
+
+const std::string& DDNF::PluginManager::GetConfigPath() const
+{
+	return mkConfigPath;
+}
+
+void DDNF::PluginManager::SetConfigPath(const std::string& rkPath)
+{
+	mkConfigPath = rkPath;
+}
+
+void DDNF::PluginManager::SetConfigName(const std::string& rkFileName)
+{
+	mkConfigFileName = rkFileName;
+}
+
+const std::string& DDNF::PluginManager::GetConfigName() const
+{
+	return mkConfigFileName;
+}
+
+const std::string& DDNF::PluginManager::GetAppName() const
+{
+	return mkAppName;
+}
+
+void DDNF::PluginManager::SetAppName(const std::string& rkAppName)
+{
+	mkAppName = rkAppName;
+}
+
+const std::string& DDNF::PluginManager::GetLogConfigName() const
+{
+	return mkLogConfigName;
+}
+
+
+void DDNF::PluginManager::SetLogConfigName(const std::string& rkName)
+{
+	mkLogConfigName = rkName;
 }
 
 void DDNF::PluginManager::LoadConfig()
