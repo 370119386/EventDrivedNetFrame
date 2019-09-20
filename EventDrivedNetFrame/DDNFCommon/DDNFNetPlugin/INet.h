@@ -250,9 +250,9 @@ namespace DDNF
 		//as server
 		virtual int InitAsServer(const unsigned int nMaxClient, const unsigned short nPort, const int nCpuCount = 4) = 0;
 
-		//virtual int ExpandBufferSize(const unsigned int size) = 0;
+		virtual int ExpandBufferSize(const unsigned int size) = 0;
 
-		//virtual bool Final() = 0;
+		virtual bool Final() = 0;
 
 		////send a message with out msg-head[auto add msg-head in this function]
 		//virtual bool SendMsgWithOutHead(const int16_t nMsgID, const char* msg, const size_t nLen, const SOCK nSockIndex = 0) = 0;

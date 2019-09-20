@@ -12,6 +12,8 @@ PluginManager::PluginManager()
 	mPluginNameDic.clear();
 	mPluginLibDic.clear();
 	mPluginHandleDic.clear();
+	mInitTime = time(NULL);
+	mNowTime = mInitTime;
 }
 
 PluginManager::~PluginManager()
@@ -93,6 +95,8 @@ bool DDNF::PluginManager::ReadyExecute()
 
 bool DDNF::PluginManager::Execute()
 {
+	mNowTime = time(NULL);
+
 	for (PluginInstanceMap::const_iterator itr = mPluginHandleDic.begin(); itr != mPluginHandleDic.end(); ++itr)
 	{
 		if (nullptr != itr->second)
@@ -280,6 +284,17 @@ IPlugin* DDNF::PluginManager::FindPlugin(const std::string& strPluginName)
 IModule* DDNF::PluginManager::FindModule(const std::string& strModuleName)
 {
 	return NULL;
+}
+
+
+DDNF::INT64 DDNF::PluginManager::GetInitTime() const
+{
+	return mInitTime;
+}
+
+DDNF::INT64 DDNF::PluginManager::GetNowTime() const
+{
+	return mNowTime;
 }
 
 void DDNF::PluginManager::LoadConfig()

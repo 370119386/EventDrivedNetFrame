@@ -34,6 +34,9 @@ namespace DDNF
 		IPlugin* FindPlugin(const std::string& strPluginName);
 		IModule* FindModule(const std::string& strModuleName);
 
+		virtual INT64 GetInitTime() const override;
+		virtual INT64 GetNowTime() const override;
+
 	protected:
 		bool LoadPluginLibrary(const std::string& strPluginDLLName);
 		bool UnLoadPluginLibrary(const std::string& strPluginDLLName);
@@ -52,6 +55,8 @@ namespace DDNF
 		PluginLibMap mPluginLibDic;
 		PluginInstanceMap mPluginHandleDic;
 
+		INT64 mInitTime;
+		INT64 mNowTime;
 	};
 }
 #endif
