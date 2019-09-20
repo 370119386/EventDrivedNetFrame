@@ -40,8 +40,8 @@ namespace DDNF
 
 	public:
 		virtual bool Execute() override;
-		virtual void Initialization(const char* strIP, const unsigned short nPort);
-		virtual int Initialization(const unsigned int nMaxClient, const unsigned short nPort, const int nCpuCount = 4);
+		virtual void InitAsClient(const char* strIP, const unsigned short nPort);
+		virtual int InitAsServer(const unsigned int nMaxClient, const unsigned short nPort, const int nCpuCount = 4);
 
 	protected:
 		int InitClientNet();

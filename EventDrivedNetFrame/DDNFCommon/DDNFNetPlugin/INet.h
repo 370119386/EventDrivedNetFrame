@@ -245,10 +245,10 @@ namespace DDNF
 		virtual bool Execute() = 0;
 
 		//as client
-		//virtual void InitAsClient(const char* strIP, const unsigned short nPort) = 0;
+		virtual void InitAsClient(const char* strIP, const unsigned short nPort) = 0;
 
 		//as server
-		//virtual int InitAsServer(const unsigned int nMaxClient, const unsigned short nPort, const int nCpuCount = 4) = 0;
+		virtual int InitAsServer(const unsigned int nMaxClient, const unsigned short nPort, const int nCpuCount = 4) = 0;
 
 		//virtual int ExpandBufferSize(const unsigned int size) = 0;
 

@@ -65,7 +65,7 @@ bool DDNF::Net::Execute()
 }
 
 
-void DDNF::Net::Initialization(const char* strIP, const unsigned short nPort)
+void DDNF::Net::InitAsClient(const char* strIP, const unsigned short nPort)
 {
 	mIp = strIP;
 	mPort = nPort;
@@ -74,7 +74,7 @@ void DDNF::Net::Initialization(const char* strIP, const unsigned short nPort)
 }
 
 
-int DDNF::Net::Initialization(const unsigned int nMaxClient, const unsigned short nPort, const int nCpuCount /*= 4*/)
+int DDNF::Net::InitAsServer(const unsigned int nMaxClient, const unsigned short nPort, const int nCpuCount /*= 4*/)
 {
 	mMaxConnect = nMaxClient;
 	mPort = nPort;
