@@ -6,7 +6,7 @@ namespace DDNF
 	class LogPlugin : public IPlugin
 	{
 	public:
-		LogPlugin(PluginManager* p)
+		LogPlugin(IPluginManager* p)
 		{
 			m_pPluginManager = p;
 		}

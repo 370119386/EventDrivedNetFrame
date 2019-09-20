@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <time.h>
+#include "DDNFCommon/DDNFPluginModule/Platform.h"
 
 namespace DDNF
 {
@@ -15,7 +16,7 @@ namespace DDNF
 	public:
 		Performance()
 		{
-			time = DDNFGetTimeMS()
+			time = DDNFGetTimeMS();
 		}
 
 		bool CheckTimePoint(const int milliSecond = 1)

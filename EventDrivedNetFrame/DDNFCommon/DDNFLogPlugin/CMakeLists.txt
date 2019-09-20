@@ -21,10 +21,5 @@ else()
 	target_link_libraries(LogPlugin -static-libstdc++)
 endif()
 
-set_target_properties( LogPlugin PROPERTIES OUTPUT_NAME_DEBUG "LogPlugin_d")
+set_target_properties( LogPlugin PROPERTIES OUTPUT_NAME_DEBUG "LogPlugin")
 set_target_properties( LogPlugin PROPERTIES PREFIX "")
-set_target_properties( LogPlugin PROPERTIES
-	FOLDER "SDK"
-	ARCHIVE_OUTPUT_DIRECTORY ${DDNFOutPutDir}
-	RUNTIME_OUTPUT_DIRECTORY ${DDNFOutPutDir}
-	LIBRARY_OUTPUT_DIRECTORY ${DDNFOutPutDir} )

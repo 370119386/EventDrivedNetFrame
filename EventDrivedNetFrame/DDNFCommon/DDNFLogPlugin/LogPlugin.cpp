@@ -19,22 +19,22 @@ DDNF_EXPORT void DllStopPlugin(IPluginManager* pm)
 
 //////////////////////////////////////////////////////////////////////////
 
-const int LogPlugin::GetPluginVersion()
+int LogPlugin::GetPluginVersion() const
 {
     return 0;
 }
 
-const std::string LogPlugin::GetPluginName()
+std::string LogPlugin::GetPluginName() const
 {
 	return GET_CLASS_NAME(LogPlugin);
 }
 
-void NFLogPlugin::Install()
+void LogPlugin::Install()
 {
-    REGISTER_MODULE(pPluginManager, NFILogModule, NFLogModule)
+    //REGISTER_MODULE(pPluginManager, NFILogModule, NFLogModule)
 }
 
-void NFLogPlugin::Uninstall()
+void LogPlugin::Uninstall()
 {
-    UNREGISTER_MODULE(pPluginManager, NFILogModule, NFLogModule)
+    //UNREGISTER_MODULE(pPluginManager, NFILogModule, NFLogModule)
 }

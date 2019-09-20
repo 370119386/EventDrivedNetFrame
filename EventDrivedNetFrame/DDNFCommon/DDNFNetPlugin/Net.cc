@@ -158,7 +158,7 @@ int DDNF::Net::InitClientNet()
 	std::cout << "want to connect " << mIp << " SizeRead: " << nSizeRead << std::endl;
 	std::cout << "SizeWrite: " << nSizeWrite << std::endl;
 
-	return sockfd;
+	return (int)sockfd;
 }
 
 int DDNF::Net::InitServerNet()
@@ -337,7 +337,7 @@ bool DDNF::Net::SendMsgToAllClient(const char* msg, const size_t nLen)
 bool DDNF::Net::SendMsgWithOutHead(const int16_t nMsgID, const char* msg, const size_t nLen, const SOCK nSockIndex)
 {
 	std::string strOutData;
-	int nAllLen = EnCode(nMsgID, msg, nLen, strOutData);
+	int nAllLen = EnCode(nMsgID, msg, (uint32_t)nLen, strOutData);
 	if (nAllLen == nLen + IMsgHead::Head::HEAD_LENGTH)
 	{
 		return SendMsg(strOutData.c_str(), strOutData.length(), nSockIndex);
@@ -350,7 +350,7 @@ bool DDNF::Net::SendMsgWithOutHead(const int16_t nMsgID, const char* msg, const 
 bool DDNF::Net::SendMsgToAllClientWithOutHead(const int16_t nMsgID, const char* msg, const size_t nLen)
 {
 	std::string strOutData;
-	int nAllLen = EnCode(nMsgID, msg, nLen, strOutData);
+	int nAllLen = EnCode(nMsgID, msg, (uint32_t)nLen, strOutData);
 	if (nAllLen == nLen + IMsgHead::Head::HEAD_LENGTH)
 	{
 		return SendMsgToAllClient(strOutData.c_str(), (uint32_t)strOutData.length());
@@ -362,7 +362,7 @@ bool DDNF::Net::SendMsgToAllClientWithOutHead(const int16_t nMsgID, const char* 
 bool DDNF::Net::SendMsgWithOutHead(const int16_t nMsgID, const char* msg, const size_t nLen, const std::list<SOCK>& fdList)
 {
 	std::string strOutData;
-	int nAllLen = EnCode(nMsgID, msg, nLen, strOutData);
+	int nAllLen = EnCode(nMsgID, msg, (uint32_t)nLen, strOutData);
 	if (nAllLen == nLen + IMsgHead::Head::HEAD_LENGTH)
 	{
 		return SendMsg(strOutData.c_str(), strOutData.length(), fdList);

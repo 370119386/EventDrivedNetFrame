@@ -27,6 +27,7 @@ endif()
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Bin)
+set(DDNFOutPutDir ${PROJECT_SOURCE_DIR})
 #= /DEBUG /NODEFAULTLIB:libc.lib /NODEFAULTLIB:libcmt.lib
 if(CMAKE_HOST_WIN32)
 set(CMAKE_EXE_LINKER_FLAGS /NODEFAULTLIB:libc.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrt.lib /NODEFAULTLIB:libcd.lib /NODEFAULTLIB:libcmtd.lib)
@@ -62,6 +63,8 @@ include_directories(${CMAKE_INCLUDE_PATH})
 link_directories(${PROJECT_LINK_DIR})
 
 # 将源代码添加到此项目的可执行文件。
+add_subdirectory("DDNFCommon/DDNFCore")
+add_subdirectory("DDNFCommon/DDNFLogPlugin")
 add_subdirectory("DDNFCommon/DDNFNetPlugin")
 
 file(GLOB EventDrivedNetFrameH *.h)

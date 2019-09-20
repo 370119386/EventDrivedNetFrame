@@ -57,7 +57,7 @@ bool LogModule::Awake()
 		strLogConfigName = m_pPluginManager->GetAppName();
 	}
 
-	string strAppLogName = "";
+	std::string strAppLogName = "";
 #if DDNF_PLATFORM == DDNF_PLATFORM_WIN
 #ifdef DDNF_DEBUG_MODE
 	strAppLogName = m_pPluginManager->GetConfigPath() + "DataCfg/Debug/logconfig/" + strLogConfigName + "_win.conf";
