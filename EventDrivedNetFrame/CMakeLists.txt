@@ -53,9 +53,9 @@ message("[CMAKE_EXE_LINKER_FLAGS] = ${CMAKE_EXE_LINKER_FLAGS}")
 
 
 if(CMAKE_HOST_WIN32)
-set(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "." "./Dependencies/libevent/include" "./Dependencies/libevent/WIN32-Code/nmake")
+set(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "." "./Dependencies/libevent/include" "./Dependencies/libevent/WIN32-Code/nmake" "./Dependencies")
 else()
-set(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "." "./Dependencies/ios/libevent/include")
+set(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "." "./Dependencies/ios/libevent/include" "./Dependencies")
 endif()
 message("[CMAKE_INCLUDE_PATH] = ${CMAKE_INCLUDE_PATH}")
 

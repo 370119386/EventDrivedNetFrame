@@ -97,6 +97,11 @@ int DDNF::NetModule::ExpandBufferSize(const unsigned int size /*= 1024 * 1024 * 
 	return m_bufferSize;
 }
 
+DDNF::INet* DDNF::NetModule::GetNet()
+{
+	return m_pNet;
+}
+
 bool DDNF::NetModule::Finalize()
 {
 	m_pPluginManager = NULL;

@@ -26,6 +26,8 @@ namespace DDNF
 		virtual int InitAsServer(const unsigned int nMaxClient, const unsigned short nPort, const int nCpuCount = 4);
 		virtual int ExpandBufferSize(const unsigned int size = 1024 * 1024 * 20);
 
+		virtual INet* GetNet();
+
 		virtual bool Finalize() override;
 
 	protected:

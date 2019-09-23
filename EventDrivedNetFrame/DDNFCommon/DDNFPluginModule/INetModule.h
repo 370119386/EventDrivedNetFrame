@@ -7,6 +7,20 @@
 
 namespace DDNF
 {
+	enum SERVER_TYPES
+	{
+		ST_NONE = 0,    // NONE
+		ST_REDIS = 1,    //
+		ST_MYSQL = 2,    //
+		ST_MASTER = 3,    //
+		ST_LOGIN = 4,    //
+		ST_PROXY = 5,    //
+		ST_GAME = 6,    //
+		ST_WORLD = 7,    //
+		ST_DB = 8,    //
+		ST_MAX = 9,    //
+	};
+
 	class INetModule : public IModule
 	{
 	public:
@@ -39,6 +53,8 @@ namespace DDNF
 		virtual void InitAsClient(const char* strIP, const unsigned short nPort) = 0;
 		virtual int InitAsServer(const unsigned int nMaxClient, const unsigned short nPort, const int nCpuCount = 4) = 0;
 		virtual int ExpandBufferSize(const unsigned int size = 1024 * 1024 * 20) = 0;
+
+		virtual INet* GetNet() = 0;
 	};
 }
 #endif//__I__NET__MODULE__H__
